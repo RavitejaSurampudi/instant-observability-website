@@ -481,7 +481,7 @@ const QuickstartsPage = ({ data, location }) => {
             `}
           >
             <span>
-              <strong>Featured</strong>
+              <strong>Most Popular</strong>
             </span>
           </div>
           <div
@@ -516,7 +516,7 @@ const QuickstartsPage = ({ data, location }) => {
             <Slider {...settings} css={css`
               display: flex;
             `}>
-              {featuredQuickStarts.map((pack) => (
+              {mostPopularQuickStarts.map((pack) => (
                 <QuickstartTile
                   key={pack.id}
                   view={view}
@@ -558,7 +558,7 @@ const QuickstartsPage = ({ data, location }) => {
             `}
           >
             <span>
-              <strong>Most Popular</strong>
+              <strong>Featured</strong>
             </span>
           </div>
           <div
@@ -591,7 +591,7 @@ const QuickstartsPage = ({ data, location }) => {
             `}
           >
             <Slider {...settings}>
-              {mostPopularQuickStarts.map((pack) => (
+              {featuredQuickStarts.map((pack) => (
                 <QuickstartTile
                   key={pack.id}
                   view={view}

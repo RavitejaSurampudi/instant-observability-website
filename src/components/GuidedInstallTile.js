@@ -38,8 +38,10 @@ const GuidedInstallTile = () => {
           display: flex;
           flex-direction: column;
           justify-content: space-around;
-          gap: 40px;
-          height: 212px;
+          gap: 8px;
+          padding: 1rem;
+          overflow: hidden;
+          height: 260px;
         `}
       >
         <div>

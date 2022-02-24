@@ -10,7 +10,6 @@ const SuperTile = ({ children, className, type }) => {
         width: 100%;
         display: flex;
         border-radius: 8px;
-        padding: 24px;
         flex-direction: column;
         align-items: flex-start;
         ${type === 'primary'
